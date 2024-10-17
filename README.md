@@ -31,26 +31,14 @@ Database 💾
 MongoDB: The application uses MongoDB for data storage, with Mongoose as an object data modeling (ODM) library for managing user and message data.
 Installation ⚙️
 Clone the repository:
-
-bash
-Copy code
 git clone https://github.com/mennaseif/sarahah.git
 cd sarahah
 Install dependencies:
-
-bash
-Copy code
 npm install
 Configure environment variables: Create a .env file in the root directory and add the following variables:
-
-bash
-Copy code
 DB_CONNECTION=<your_mongodb_connection_string>
 SESSION_SECRET=<your_session_secret>
 Run the application:
-
-bash
-Copy code
 npm start
 The application will be available at http://localhost:3001 🌐.
 
